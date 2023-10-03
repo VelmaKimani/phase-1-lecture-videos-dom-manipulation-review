@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- <script src="./src/data.js"></script> -->
+        <script defer src="./src/index.js"></script>
+        <link rel="stylesheet" href="./main.css">
+        <title>DOM Manipulation Review</title>
+    </head>
+    <body>
+        <header id="menu">
+            <h1>Welcome to DOM Manipulation Review</h1>
+        </header>
+        <div class="container">
+            <form id="recipe-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="name">Image URL</label>
+                <input type="text" id="image_url" name="image">
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                <button type="submit">Cook Recipe</button>
+            </form>
+            <ul id="recipe-list" class="cards">
+                <!-- Recipes here -->
+            </ul>
+        </div>
+    </body>
+</html>
